@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearSense - Landing Page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat:wght@300;400;600&family=Chicle&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Préchargeur -->
+  <div id="preloader" aria-hidden="true">
+    <img src="logo-principal.png" alt="Logo ClearSense">
+  </div>
+
+  <!-- Bouton retour en haut -->
+  <button id="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <!-- HEADER MOBILE -->
+  <header class="header-mobile">
+    <!-- Bouton menu burger -->
+    <button class="menu-burger" aria-label="Ouvrir le menu" aria-controls="nav-mobile" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="logo-principal.png" alt="Logo ClearSense">
+    </div>
+
+    <!-- Icônes à droite -->
+    <nav class="icons-right" id="nav-mobile">
+      <a href="#" aria-label="Rechercher">
+        <img src="icone-recherche.png" class="icon" alt="Recherche">
+        <span>Recherche</span>
+      </a>
+      <a href="#" aria-label="Mon compte">
+        <img src="icone-compte.png" class="icon" alt="Compte">
+        <span>Compte</span>
+      </a>
+      <a href="#" aria-label="Voir le panier">
+        <img src="icone-panier.png" class="icon" alt="Panier">
+        <span>Panier</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- HEADER DESKTOP -->
+  <header class="header-desktop">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="logo-principal.png" alt="Logo ClearSense">
+    </div>
+
+    <!-- Navigation principale -->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#" class="active">Accueil</a></li>
+        <li><a href="#cours">Cours</a></li>
+        <li><a href="#boutique">Boutique</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#aide">Aide</a></li>
+      </ul>
+    </nav>
+
+    <!-- Actions à droite -->
+    <div class="header-actions">
+      <!-- Recherche -->
+      <div class="search-btn">
+        <a href="#">
+          <span>Recherche</span>
+          <img src="icone-recherche-blanc.png" alt="Recherche" class="icon">
+        </a>
+      </div>
+
+      <!-- Compte -->
+      <div class="account">
+        <a href="#">
+          <img src="icone-compte.png" alt="Compte" class="icon">
+          <span>Compte</span>
+        </a>
+      </div>
+
+      <!-- Panier -->
+      <div class="cart">
+        <a href="#">
+          <img src="icone-panier.png" alt="Panier" class="icon">
+          <span>Panier</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION HERO -->
+    <section class="hero">
+      <!-- Colonne gauche : illustration -->
+      <div class="hero-image">
+        <img src="illustration-yoga.png" alt="Illustration yoga détente" loading="lazy">
+      </div>
+
+      <!-- Colonne droite : texte -->
+      <div class="hero-content">
+        <h1>Offrez-vous un moment <br> pour souffler...</h1>
+        <p>Cours test offert dans notre studio de Clamart</p>
+        <a href="#" class="cta">Je réserve ma séance offerte !</a>
+      </div>
+    </section>
+
+    <!-- SECTION POURQUOI CLEARSENSE -->
+    <section class="why-clearsense scroll-anim" id="cours">
+      <h1>Pourquoi choisir Clearsense&nbsp;?</h1>
+
+      <p>
+        Clearsense est bien plus qu'une plateforme de cours. 
+        Nous vous accompagnons dans un mode de vie sain grâce à des cours de Pilates 
+        adaptés à tous les niveaux, un blog bien-être et une boutique d’accessoires de qualité.
+      </p>
+
+      <div class="features">
+        <!-- Bloc 1 -->
+        <div class="feature">
+          <div class="feature-inner">
+            <div class="feature-image">
+              <img src="cours-en-ligne.png" alt="Illustration cours en ligne" loading="lazy">
+            </div>
+            <h3>Cours en ligne</h3>
+          </div>
+        </div>
+
+        <!-- Bloc 2 -->
+        <div class="feature">
+          <div class="feature-inner">
+            <div class="feature-image">
+              <img src="bien-etre.png" alt="Illustration bien-être" loading="lazy">
+            </div>
+            <h3>Bien-être</h3>
+          </div>
+        </div>
+
+        <!-- Bloc 3 -->
+        <div class="feature">
+          <div class="feature-inner">
+            <div class="feature-image">
+              <img src="equipement.png" alt="Illustration équipements" loading="lazy">
+            </div>
+            <h3>Équipements</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION AVIS CLIENTS -->
+    <section class="avis-clients scroll-anim" id="avis">
+      <h1>Avis clients</h1>
+
+      <article class="avis">
+        <blockquote>
+          <p>
+            « Les cours proposés sur le site sont incroyables ! Les instructeurs sont très professionnels 
+            et bienveillants, et chaque session est adaptée à tous les niveaux. J’adore la variété des cours disponibles, 
+            entre sessions pour se relaxer et cours plus intenses pour renforcer les muscles. 
+            Depuis que je suis inscrite, je ressens une réelle amélioration de ma posture et de mon bien-être global. 
+            Bravo pour cette belle qualité de service ! »
+          </p>
+        </blockquote>
+        <p class="auteur">— Amélie M.</p>
+      </article>
+    </section>
+
+<!-- SECTION FAQ -->
+<section class="faq scroll-anim" id="faq">
+  <h1>Foire aux questions</h1>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">
+        Quels types de cours propose ClearSense ?
+      </button>
+      <div class="faq-answer">
+        <p>
+          ClearSense propose des cours de Pilates, de relaxation et de méditation, en ligne et en studio. 
+          Nos programmes sont adaptés à tous les niveaux, du débutant au confirmé.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Les cours sont-ils accessibles aux débutants ?
+      </button>
+      <div class="faq-answer">
+        <p>
+          Oui, tous nos cours sont conçus pour être accessibles à chacun. 
+          Vous pouvez progresser à votre rythme, grâce à nos vidéos guidées et à nos instructeurs bienveillants.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Comment puis-je réserver un cours ?
+      </button>
+      <div class="faq-answer">
+        <p>
+          Vous pouvez réserver directement sur notre site, en vous connectant à votre espace membre 
+          et en choisissant le créneau horaire qui vous convient le mieux.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Quels équipements me faut-il pour suivre les cours en ligne ?
+      </button>
+      <div class="faq-answer">
+        <p>
+          Pour suivre nos cours en ligne, vous n’avez besoin que d’un tapis de yoga ou de Pilates. Certains exercices peuvent utiliser des accessoires comme des ballons ou des bandes élastiques, mais nous proposons toujours des alternatives pour ceux qui n’en ont pas.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- SECTION NEWSLETTER -->
+    <section class="newsletter scroll-anim" id="newsletter">
+      <div class="newsletter-content">
+        <h1>Newsletter</h1>
+        <p>
+          Recevez des conseils exclusifs, des offres spéciales et nos dernières nouveautés 
+          directement dans votre boîte mail !
+        </p>
+
+        <div class="newsletter-message" aria-live="polite">
+        </div>
+        
+        <form action="#" method="post" class="newsletter-form">
+         <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+  <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+
+          <button type="submit" class="cta">S'inscrire maintenant</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <!-- Colonne gauche -->
+    <div class="footer-left">
+      <div class="logo">
+        <img src="logo-secondaire.png" alt="ClearSense">
+      </div>
+      <p class="cookies">
+        Le site utilise des cookies pour optimiser l’expérience utilisateur. 
+        Vous pouvez configurer vos préférences relatives aux cookies à tout moment en 
+        <a href="#">cliquant ici</a>.
+      </p>
+    </div>
+
+    <!-- Bloc central -->
+    <div class="footer-center">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Cours</a></li>
+          <li><a href="#">Boutique</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <p><a href="mailto:clearsense.contact@gmail.com">clearsense.contact@gmail.com</a></p>
+        <p><a href="tel:0125684936">01.25.68.49.36</a></p>
+        <p>ClearSense - 55 rue des Garrements, 92140 Clamart</p>
+      </div>
+    </div>
+
+    <!-- Colonne droite -->
+    <div class="footer-right">
+      <div class="footer-socials">
+        <h3>Restez connecté !</h3>
+        <div class="icons">
+          <a href="#"><img src="logo-linkedin.png" alt="LinkedIn" loading="lazy"></a>
+          <a href="#"><img src="logo-twitter.png" alt="Twitter" loading="lazy"></a>
+          <a href="#"><img src="logo-instagram.webp" alt="Instagram" loading="lazy"></a>
+          <a href="#"><img src="logo-facebook.webp" alt="Facebook" loading="lazy"></a>
+          <a href="#"><img src="logo-youtube.png" alt="YouTube" loading="lazy"></a>
+        </div>
+      </div>
+
+      <div class="footer-payments">
+        <h3>Paiement sécurisé</h3>
+        <div class="icons">
+          <img src="logo-cb.jpg" alt="Carte bancaire" loading="lazy">
+          <img src="logo-visa.png" alt="Visa" loading="lazy">
+          <img src="logo-mastercard.png" alt="Mastercard" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
